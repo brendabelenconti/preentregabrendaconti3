@@ -1,0 +1,16 @@
+.mainconocenos {
+    .h2conocenos {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .ulconocenos {
+        background-color: white;
+        margin: 40px;
+        .licoonocenos {
+            list-style: none;
+            font-size: 25px;
+        }
+    }
+}
+

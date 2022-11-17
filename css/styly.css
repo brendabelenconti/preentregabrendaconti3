@@ -1,0 +1,134 @@
+section {
+  display: grid;
+  grid-template-rows: 3fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+section div {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+section div img {
+  background-color: #fff;
+  border: 1px solid rgb(107, 107, 107);
+  border-radius: 5px;
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  margin-bottom: 5px;
+}
+section div img:hover {
+  scale: 1.1;
+}
+
+@media screen and (max-width: 1024px) {
+  .gridcontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gridcontainer {
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-columns: 1fr;
+  }
+}
+footer {
+  color: grey;
+  font-family: "Courier New", Courier, monospace;
+  background-color: burlywood;
+}
+footer section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  min-height: 200px;
+}
+footer section p {
+  font-size: 30px;
+}
+
+.mainconocenos .h2conocenos {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.mainconocenos .ulconocenos {
+  background-color: white;
+  margin: 40px;
+}
+.mainconocenos .ulconocenos .licoonocenos {
+  list-style: none;
+  font-size: 25px;
+}
+
+.divenvios1 {
+  display: grid;
+  grid-template-rows: 3fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+.divenvios1 .divenvioshijo {
+  margin-left: 5px;
+  margin-top: 10px;
+}
+.divenvios1 .divenvioshijo p {
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: antiquewhite;
+}
+.divenvios1 .divenvioshijo .imgenvios {
+  width: 150px;
+  height: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+  .divenvios1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .divenvios1 {
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-columns: 1fr;
+  }
+}
+.formseguinos {
+  margin: 10px;
+}
+.formseguinos .gridcontainer {
+  display: grid;
+  justify-content: space-around;
+  background-color: grey;
+  grid-template-rows: 1fr;
+  grid-template-columns: 3, 1fr;
+}
+.formseguinos .gridcontainer div {
+  margin: 15px;
+}
+
+.h2seguinos {
+  display: flex;
+  justify-content: center;
+}
+
+.mainseguinos {
+  display: flex;
+  justify-content: center;
+}
+.mainseguinos div {
+  margin: 20px;
+}
+.mainseguinos div h3 {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.mainseguinos div img {
+  height: 100px;
+  width: 100px;
+}
+
+/*# sourceMappingURL=styly.css.map */
